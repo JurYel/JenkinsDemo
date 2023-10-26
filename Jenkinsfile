@@ -28,7 +28,7 @@ pipeline {
                 subject: "Build Failed",
                 body: "The build has failed. Please check the Jenkins build log.",
                 recipientProviders: [[$class: 'CulpritsRecipientProvider']],
-                to: 'botoyjuriel@gmail.com'
+                to: 'juriel.botoy182@gmail.com'
 
             )
         }
@@ -37,7 +37,7 @@ pipeline {
                 subject: "Build Success",
                 body: "The build has completed successfully.",
                 recipientProviders: [[$class: 'CulpritsRecipientProvider']],
-                to: 'botoyjuriel@gmail.com'
+                to: 'juriel.botoy182@gmail.com'
 
             )
         }
